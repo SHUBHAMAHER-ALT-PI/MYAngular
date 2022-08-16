@@ -5,9 +5,9 @@ import { PostComponent } from './Component/post/post.component';
 import { TemplateComponent } from './Component/template/template.component';
 
 const routes: Routes = [
-  { path: 'MYAngular/alllist', component:PostComponent  },
-  { path: 'MYAngular/', component:TemplateComponent  },
-  { path: 'MYAngular/input', component:InputDataComponent  },
+  { path: 'MYAngular/app/alllist', component:PostComponent  },
+  { path: 'MYAngular/app/', component:TemplateComponent  },
+  { path: 'MYAngular/app/input', component:InputDataComponent  },
 ];
 
 @NgModule({
