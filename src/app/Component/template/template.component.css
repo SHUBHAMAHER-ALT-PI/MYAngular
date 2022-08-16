@@ -1,0 +1,14 @@
+.img{
+    text-align: center;
+}
+.img img{
+    width: 20%;
+    height: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+
+}
+h3{
+    text-align: center;
+}

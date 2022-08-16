@@ -1,0 +1,14 @@
+<div *ngIf="form==true">
+    <form action="" [formGroup]="CurrentdataHeading" ngForm="signUpFrom">
+        <input type="text" placeholder="Enter your Offer Name" formControlName="heading">
+    <input type="number" placeholder="Enter your Offer" formControlName="offer">
+    <button (click)="setData()">Save  </button>
+    </form>
+</div>
+<div *ngIf="show==true">
+    <img src="{{img}}" alt="" class="img">
+    <div class="name">{{name}}</div>
+    <div class="offer">{{of}} off On All Product</div>
+</div>
+
+<button routerLink="/alllist">Sell All Post</button>

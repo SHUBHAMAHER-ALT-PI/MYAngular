@@ -1,0 +1,5 @@
+<h3>Select Template</h3>
+<div  class ="img"*ngFor="let item of template" >
+    <img (click)="SetCurrnt(item)" src={{item}} alt="" routerLink="/input">
+</div>
+<button routerLink="/alllist">Sell All Post</button>
